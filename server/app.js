@@ -31,6 +31,5 @@ app.get('/', async (req,res) => {
      cache[key] = data;
      return res.status(200).json(data)
 });
-// When making calls to the OMDB API make sure to append the '&apikey=8730e0e' parameter
 
 module.exports = app;
